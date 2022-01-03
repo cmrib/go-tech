@@ -200,7 +200,7 @@ main{
     
 }
 
-.process-text h1{
+.process-text h1 {
     letter-spacing: 0.46px;
     font-size: 36px;
     color: #222222;
@@ -210,7 +210,7 @@ main{
     margin-bottom: 30px;
 }
 
-.process-text p{
+.process-text p {
     line-height: 27px;
     font-size: 15px;
     color: #555555;
@@ -233,12 +233,12 @@ main{
     font-size: 15px;
 }
 
-.process-container.under{
+.process-container.under {
     margin-top: 150px;
     margin-left: 120px;
 }
 
-.process-container.under p{
+.process-container.under p {
     max-width: 480px;
 }
 
@@ -253,12 +253,12 @@ main{
     margin-bottom: 140px;   
 }
 
-.speciality-text{
+.speciality-text {
     margin-bottom: 40px;
 
 }
 
-.speciality-text h1{
+.speciality-text h1 {
     letter-spacing: 0.46px;
     font-size: 36px;
     color: #222222;
@@ -271,7 +271,7 @@ main{
 }
 
 
-.speciality-cards{
+.speciality-cards {
     display: flex;
     
     width: 80%;
@@ -290,7 +290,7 @@ main{
     padding: 30px 10px
 }
 
-.speciality-cards img{
+.speciality-cards img {
     height: 240px;
     width: 240px;
     margin-bottom: 15px;
@@ -314,7 +314,7 @@ main{
     line-height: 27px;
 }
 
-.speciality-arrows{
+.speciality-arrows {
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -323,7 +323,7 @@ main{
     
 }
 
-.speciality-arrows img{
+.speciality-arrows img {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 10px 30px #99999933;
     padding: 5px;
@@ -367,14 +367,14 @@ main{
     width: 490px;    
 }
 
-.products-cards{
+.products-cards {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
 
-.product-card{   
+.product-card {   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -386,7 +386,7 @@ main{
     
 }
 
-.product-card.center{ 
+.product-card.center { 
     position: relative;
     bottom: 50px;
 }
@@ -395,20 +395,20 @@ main{
     margin-bottom: 16px;
 }
 
-.products-cards p{
+.products-cards p {
     margin: 16px 0;
     width: 260px;
     text-align: center;
     color: #999999;
 }
 
-.products-cards a{
+.products-cards a {
     margin: 16px 0;
     text-decoration: none;
     color: #49BE55;
 }
 
-.clients-container{    
+.clients-container {    
     max-width: 1200px;
     margin: 0 auto; 
     display: flex;
@@ -420,14 +420,14 @@ main{
     
 }
 
-.depoiment{    
+.depoiment {    
     display: flex;
     flex-direction: column;
     align-items: center;      
     
 }
 
-.depoiment h1{
+.depoiment h1 {
     letter-spacing: 0px;
     font-size: 36px;
     color: #222222;
@@ -437,14 +437,14 @@ main{
     margin-bottom: 22.5px;
 }
 
-.depoiment img{
+.depoiment img {
     margin-top: 22.5px;
     margin-bottom: 23px;
     height: 197px;
     width: 197px;
 }
 
-.depoiment h2{
+.depoiment h2 {
     font-size: 24px;
     line-height: 34px;
     font-weight: normal;
@@ -475,7 +475,7 @@ main{
     left: 160px;
 }
 
-#tyler{
+#tyler {
     position: absolute;   
     top: 350px; 
     left: 10px;
@@ -499,7 +499,7 @@ main{
     right: 220px;
 }
 
-.form-container{
+.form-container {
     max-width: 1400px;
     margin: 0 auto;
     height: 100vh;
@@ -511,7 +511,7 @@ main{
    
 }
 
-.form-container h1{
+.form-container h1 {
     letter-spacing: 0px;
     font-size: 36px;
     color: #222222;
@@ -522,7 +522,7 @@ main{
    
 }
 
-.form-container form{
+.form-container form {
     display: flex;
     flex-direction: column;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -562,7 +562,7 @@ main{
   }
   
 
-.form-container input[type=text], select{
+.form-container input[type=text], select {
     background: transparent;
     padding: 15px 0;
     color:  #222222
@@ -583,21 +583,65 @@ main{
     font-size: 15px;
   } 
 
-  .form-container .border-images{
+  .form-container .border-images { 
    margin-top: -200px;
     display: flex;
     align-items: center;
     justify-content: space-between;          
   }
 
-  .form-container .border-images .left{
+  .form-container .border-images .left {
       margin-right: 600px;
   }
 
 
+ .footer-container {
+    max-width: 1400px;
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
 
 
+.footer-container img {
+   width: 150px;
+   margin: 50px 0;
+}
 
+.footer-container .contact {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%
+}
 
-  
+.footer-container .contact-card {
+    padding: 30px;
+}
+
+.footer-container .contact-card h3 {
+    text-align: left;
+    font-size: 15px;
+    line-height: 23px;    
+    color: #101C21;
+    margin-bottom: 15px;
+    
+}
+
+.footer-container .contact-card ul {
+    list-style: none;
+}
+
+.footer-container .contact-card li a, p {
+    text-decoration: none;
+    color: #777777;
+    font-size: 13px;
+    line-height: 23px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
